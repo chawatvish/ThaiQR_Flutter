@@ -11,29 +11,34 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# Thai QR Code Generator
+
+A Flutter package for generating Thai QR codes compliant with the PromptPay standard.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Generate QR codes for PromptPay payments.
+- Easily customize QR code size, colors, and other properties.
+- Support for both static and dynamic QR codes.
+- Built-in support for currency and country code formatting.
 
-## Getting started
+## Getting Started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use this package, add `thai_qr_code` as a dependency in your `pubspec.yaml` file.
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  thai_qr_code: ^0.0.1
 ```
 
-## Additional information
+# Outro
+## Credits
+Thanks to kittinan for his awesome [Thai QR for python]([https://github.com/kevmoo/qr.dart](https://github.com/kittinan/thai-qr-payment)) library. It's the reference of this library.
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+For author/contributor information, see the `AUTHORS` file.
+
+## License
+
+ThaiQR_Flutter is released under a BSD-3 license. See `LICENSE` for details.
