@@ -5,7 +5,7 @@ import 'package:thaiqr/thaiqr.dart';
 void main() {
   test('create qrcode with mobile and amount', () {
     var generator = ThaiQRGenerator();
-    var code = generator.generateCodeFromMobile("1234567890123", "123.45");
+    var code = generator.generateCodeFromMobileOrId("1234567890123", "123.45");
     expect(code.length, 84);
     expect(
         code.contains(

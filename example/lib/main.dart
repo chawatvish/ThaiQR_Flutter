@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         body: ThaiQRWidget(
           mobileOrId: "1234567890123",
           amount: "100.23",
-          showHeader: true,
+          showHeader: false,
         ),
       ),
     );

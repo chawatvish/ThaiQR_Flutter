@@ -17,7 +17,7 @@ class ThaiQRWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var code = generator.generateCodeFromMobile(mobileOrId, amount ?? "");
+    var code = generator.generateCodeFromMobileOrId(mobileOrId, amount ?? "");
     return Column(
       children: [
         if (showHeader)

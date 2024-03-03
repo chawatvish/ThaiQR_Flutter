@@ -18,7 +18,7 @@ class ThaiQRGenerator {
   static const String TRANSACTION_CURRENCY_THB = "764";
   static const String COUNTRY_CODE_TH = "TH";
 
-  String generateCodeFromMobile(String number, String amount) {
+  String generateCodeFromMobileOrId(String number, String amount) {
     var sanitizedNumber = _sanitizeInput(number);
     var ppType = (sanitizedNumber.length >= 15)
         ? BOT_ID_MERCHANT_EWALLET_ID
