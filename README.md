@@ -35,7 +35,7 @@ dependencies:
 
 # Outro
 ## Credits
-Thanks to kittinan for his awesome [Thai QR for python]([https://github.com/kevmoo/qr.dart](https://github.com/kittinan/thai-qr-payment)) library. It's the reference of this library.
+Thanks to kittinan for his awesome [Thai QR for python](https://github.com/kittinan/thai-qr-payment) library. It's the reference of this library.
 
 For author/contributor information, see the `AUTHORS` file.
 
