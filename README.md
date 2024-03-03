@@ -30,7 +30,7 @@ To use this package, add `thai_qr_code` as a dependency in your `pubspec.yaml` f
 dependencies:
   flutter:
     sdk: flutter
-  thai_qr_code: ^0.0.1
+  thai_qr_code: ^1.0.0
 ```
 
 # Outro
