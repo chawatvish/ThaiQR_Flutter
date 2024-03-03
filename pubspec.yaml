@@ -1,7 +1,6 @@
 name: thaiqr
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "A Flutter package for generating Thai QR codes compliant with the PromptPay standard."
+version: 1.0.0
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
