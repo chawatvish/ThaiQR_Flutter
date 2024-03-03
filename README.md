@@ -18,9 +18,9 @@ A Flutter package for generating Thai QR codes compliant with the PromptPay stan
 ## Features
 
 - Generate QR codes for PromptPay payments.
-- Easily customize QR code size, colors, and other properties.
 - Support for both static and dynamic QR codes.
 - Built-in support for currency and country code formatting.
+- Built-in widget for Thai QR can select show/hide header. 
 
 ## Getting Started
 
@@ -30,8 +30,20 @@ To use this package, add `thai_qr_code` as a dependency in your `pubspec.yaml` f
 dependencies:
   flutter:
     sdk: flutter
-  thai_qr_code: ^1.0.0
+  thai_qr_code: ^1.1.0
 ```
+
+## Example
+<table>
+  <tr>
+    <th>ShowHeader = false</th>
+    <th>ShowHeader = true</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/chawatvish/ThaiQR_Flutter/assets/6084987/0cd21851-2564-4584-a93d-0ec6927d2fc3" width=200px height=434px></td>
+    <td><img src="https://github.com/chawatvish/ThaiQR_Flutter/assets/6084987/18e833aa-8e49-4c61-bc69-ae257530e60c" width=200px height=434px></td>
+  </tr>
+</table>
 
 # Outro
 ## Credits
