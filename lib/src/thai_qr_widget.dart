@@ -5,7 +5,7 @@ import 'package:qr_flutter/qr_flutter.dart';
 import 'package:thaiqr/thaiqr.dart';
 
 class ThaiQRWidget extends StatelessWidget {
-  bool showHeader;
+  final bool showHeader;
   final String mobileOrId;
   final String? amount;
   final generator = ThaiQRGenerator();
